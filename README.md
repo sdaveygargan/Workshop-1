@@ -8,6 +8,7 @@
 # Introduction:
 
 In this lab you will be introduced to Unity, a powerful games and simulation engine which facilitates the construction of rich interactive scenes.
+
 You will start with by opening `Scenes > Main`.
 
 * **Main.unity** - This file is our goal, we are going to recreate the behaivors that you see in the scene.
@@ -82,8 +83,4 @@ Do not forget to ask:
 **How can I run code in Unity?**
 
 **How does the Update function work?**
-
-
-
-
 
