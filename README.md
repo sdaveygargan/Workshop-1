@@ -9,27 +9,27 @@
 
 In this lab you will be introduced to Unity, a powerful games and simulation engine which facilitates the construction of rich interactive scenes.
 
-You will start with by opening `Scenes > Main`.
+Start by opening `Scenes > Main`.
 
-* **Main.unity** - This file is our goal, we are going to recreate the behaivors that you see in the scene.
+* **Main.unity** - This is the main file where we are going to recreate the behaviors that you see in the scene.
 
-In the center you can see a `Play` Button. Click on it and the simulation start. You shoudl be able to see the same action as the gif at the top of this README.
-Make sure to understand the diference between the `Scene tab` and the `Game tab`. On play you can see the Game tab while out of play you use the scene tab.
+In the center you can see a `Play` Button. Click on it and the simulation will start. You should be able to see the same action as the gif at the top of this README.
+Make sure to understand the diference between the `Scene tab` and the `Game tab`. During play you can see the Game tab and while out of play you use the scene tab.
 
 Explore this scene, in the `Hierarchy` (on the left) you can see all the `GameObjects` that are part of the scene:
 
-* **Main Camera** - Viewpoint of the player, moving this GameObject position make the player move.
+* **Main Camera** - Viewpoint of the player, moving this GameObject position makes the player move.
 * **Directional Ligth** - The Sun in the scene.
-* **Top Ball and Bottom Ball** - Balls that include physics (`RigidBody`) and a script to change the color on Collision.
+* **Top Ball and Bottom Ball** - Balls that include physics (`RigidBody`) and a script to change their color on Collision.
 * **Plane** - The ground of this simulation.
-* **Canvas - Text UI** - This GameObject is not part of the Player scene but part the Player User Interface.
-* **Text 3D Object** - Text as a Object part of the player scene.
+* **Canvas - Text UI** - This GameObject is not part of the Player scene but is part of the Player User Interface.
+* **Text 3D Object** - Text as an Object which is part of the player scene.
 
-Everthing in Unity need to be part of a `GameObject`, but not all GameObjects need a visual body (`Main Camera` does not have a body). GameObjects can be Empty!
+Everything in Unity needs to be part of a `GameObject`, but not all GameObjects need a visual body (`Main Camera` does not have a body). GameObjects can be Empty!
 
 # Inspector
 
-Click on the top ball,  and then look at the `Inspector` (on the right) you can see diferent `Components`. The components are `Sphere (Mesh Filter)`, `Mesh Renderer`, `Sphere Collider`, `Rigidbody`, `Change Color (Script)`, and `Default-Material`. To learn about them click on the `?` and read the documentation from Unity, this will help you learn about everything each component can do.
+Click on the top ball,  and then look at the `Inspector` (on the right) where you can see diferent `Components`. The components are `Sphere (Mesh Filter)`, `Mesh Renderer`, `Sphere Collider`, `Rigidbody`, `Change Color (Script)`, and `Default-Material`. To learn more about them click on the `?` and read the documentation from Unity.
 
 ![Learn Components](Demo/LearnComponents.gif)
 
@@ -45,11 +45,11 @@ public class changeColor : MonoBehaviour {
   
   public bool ChangeColorRed = true; // Adds a Public Variable that can change value in the Editor
   
-  void OnCollisionEnter () { // This function run when the object has a collision
+  void OnCollisionEnter () { // This function runs when the object has a collision
   
     if (ChangeColorRed == true){
     
-      // Finds the component Renderer, and change the color of the Material to red
+      // Finds the component Renderer, and changes the color of the Material to red
       gameObject.GetComponent<Renderer>().material.color = Color.red;
       
    	} else {
@@ -66,13 +66,13 @@ public class changeColor : MonoBehaviour {
 
 The best way of learning Unity is by using it. The objective is to start with a new file and recreate the one you explored.
 
-Click on `File > New Scene` to start from an empty scene. You shoudl be able to see that it start with 2 Game Objects: `MainCamera` and `Directional light`.
+Click on `File > New Scene` to start from an empty scene. You should be able to see that it start with 2 Game Objects: `MainCamera` and `Directional light`.
 
-Add all the GameObject by selecting the `+` 
+Add a GameObject by selecting the `+` 
 
 ![Learn Components](Demo/AddGameObject.gif)
 
-With the help of the Tutor and the `Main` Scene make sure that all `Game Objects` have all the components needed.
+With the help of your Tutor and the `Main` Scene make sure that all `Game Objects` have all the components needed.
 
 Good Luck!
 
