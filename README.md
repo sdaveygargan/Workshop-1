@@ -25,11 +25,11 @@ Explore this scene, in the `Hierarchy` (on the left) you can see all the `GameOb
 * **Canvas - Text UI** - This GameObject is not part of the Player scene but part the Player User Interface.
 * **Text 3D Object** - Text as a Object part of the player scene.
 
-Everthing in Unity need to be part of a `GameObject`, but not all GameObjects need a visual body; objects can also be trasparent! `Main Camera` does not have a body.
+Everthing in Unity need to be part of a `GameObject`, but not all GameObjects need a visual body (`Main Camera` does not have a body). GameObjects can be Empty!
 
 # Inspector
 
-Click on the top ball,  and then look at the `Inspector` (on the right) you can see diferent `Components`. The components are `Sphere (Mesh Filter)`, `Mesh Renderer`, `Sphere Collider`, `Rigidbody`, `Change Color (Script)`, and `Default-Material`. To learn about them plase click on th `?` and read the documentation from Unity, this will hell you learn about everything each component can do.
+Click on the top ball,  and then look at the `Inspector` (on the right) you can see diferent `Components`. The components are `Sphere (Mesh Filter)`, `Mesh Renderer`, `Sphere Collider`, `Rigidbody`, `Change Color (Script)`, and `Default-Material`. To learn about them click on the `?` and read the documentation from Unity, this will help you learn about everything each component can do.
 
 ![Learn Components](Demo/LearnComponents.gif)
 
@@ -70,9 +70,9 @@ Click on `File > New Scene` to start from an empty scene. You shoudl be able to 
 
 Add all the GameObject by selecting the `+` 
 
-![Learn Components](Demo/AddGameObjects.gif)
+![Learn Components](Demo/AddGameObject.gif)
 
-With the help of the Tutor and the other `Main Scene` make sure that all componenet are added to all `GameObjects`.
+With the help of the Tutor and the `Main` Scene make sure that all `Game Objects` have all the components needed.
 
 Good Luck!
 
