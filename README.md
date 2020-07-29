@@ -14,7 +14,7 @@ Start by opening `Scenes > Main`.
 * **Main.unity** - This is the main file where we are going to recreate the behaviors that you see in the scene.
 
 In the center you can see a `Play` button. Click on it and the simulation will start. You should be able to see the same action as the gif at the top of this README.
-Make sure to understand the diference between the `Scene tab` and the `Game tab`. While playing you are automatically switched to the 'Game' tab and while editing you are switched to the 'Scene' tab. Although the switch is automatic, it is possible to manually switch between these whether you are playing or editing.
+Make sure to understand the diference between the `Scene tab` and the `Game tab`. While playing you are automatically switched to the game tab and while editing you are switched to the scene tab. Although the switch is automatic, it is possible to manually switch between these whether you are playing or editing.
 
 Explore this scene, in the `Hierarchy` (on the left) you can see all the `GameObjects` that are part of the scene:
 
@@ -25,11 +25,11 @@ Explore this scene, in the `Hierarchy` (on the left) you can see all the `GameOb
 * **Canvas - Text UI** - This GameObject is not part of the Player scene but is part of the Player User Interface.
 * **Text 3D Object** - Text as an Object which is part of the player scene.
 
-Everything in Unity needs to be part of a `GameObject`, but not all GameObjects need a visual body (`Main Camera` does not have a body). GameObjects can be Empty!
+Everything in Unity needs to be part of a `GameObject`, but not all GameObjects need a visual body (e.g. `Main Camera`). GameObjects can also be completely empty!
 
 # Inspector
 
-Click on the top ball, and then look at the `Inspector` (on the right) where you can see diferent `Components`. The components are `Sphere (Mesh Filter)`, `Mesh Renderer`, `Sphere Collider`, `Rigidbody`, `Change Color On Collision (Script)`, and `Default-Material`. To learn more about them click on the `?` and read the documentation from Unity.
+Click on the 'Top Ball' object, and then look at the `Inspector` (on the right) where you can see different `Components`. The components are `Sphere (Mesh Filter)`, `Mesh Renderer`, `Sphere Collider`, `Rigidbody`, `Change Color On Collision (Script)`, and `Default-Material`. To learn more about them click on the `?` and read the documentation from Unity.
 
 ![Learn Components](Demo/LearnComponents.gif)
 
