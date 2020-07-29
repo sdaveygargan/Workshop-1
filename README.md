@@ -1,4 +1,6 @@
-![Welcome Demo](Demo/demo.gif)
+<p align="center">
+  <img src="Gifs/demo.gif">
+</p>
 
 **The University of Melbourne**
 # COMP30019 – Graphics and Interaction
@@ -31,7 +33,9 @@ Everything in Unity needs to be part of a `GameObject`, but not all GameObjects 
 
 Click on the 'Top Ball' object, and then look at the `Inspector` (on the right) where you can see different `Components`. The components are `Sphere (Mesh Filter)`, `Mesh Renderer`, `Sphere Collider`, `Rigidbody`, `Change Color On Collision (Script)`, and `Default-Material`. To learn more about them click on the `?` and read the documentation from Unity.
 
-![Learn Components](Demo/LearnComponents.gif)
+<p align="center">
+  <img src="Gifs/LearnComponents.gif">
+</p>
 
 # Scripts
 We can create custom components to attach to GameObjects by writing C# scripts. The `Change Color On Collision (Script)` component is an example of this. Click on the three dots on the (top) right-hand side of the component, and select 'Edit Script' from the menu which appears. You should see the following code open up in Visual Studio (or equivalent):
@@ -55,6 +59,9 @@ public class ChangeColorOnCollision : MonoBehaviour
 
 The goal of this component is to change the color of an object when it collides with another object. In particular, note the use of the `public` variable `changeColorTo`. By making it `public`, we can set its value within the Unity interface. If you expand the  `Change Color On Collision (Script)` component in the Unity editor, you can see 'Change Color To' listed, and the color it is currently set to. As an exercise, try changing this color for one of the balls, and run the game again.
 
+<p align="center">
+  <img src="Gifs/ChangeColor.gif">
+</p>
 
 # Task - Recreate the Scene
 
@@ -64,7 +71,9 @@ Click on `File > New Scene` to start from an empty scene. You should be able to 
 
 Add a GameObject by selecting the `+` 
 
-![Learn Components](Demo/AddGameObject.gif)
+<p align="center">
+  <img src="Gifs/AddGameObject.gif">
+</p>
 
 With the help of your tutor and the `Main` Scene make sure that all `Game Objects` have all the components needed.
 
