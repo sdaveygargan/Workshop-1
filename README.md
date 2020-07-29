@@ -19,7 +19,7 @@ Make sure to understand the diference between the `Scene tab` and the `Game tab`
 Explore this scene, in the `Hierarchy` (on the left) you can see all the `GameObjects` that are part of the scene:
 
 * **Main Camera** - Viewpoint of the player, moving this GameObject position makes the player move.
-* **Directional Ligth** - The Sun in the scene.
+* **Directional Light** - The Sun in the scene.
 * **Top Ball and Bottom Ball** - Balls that include physics (`RigidBody`) and a script to change their color on Collision.
 * **Plane** - The ground of this simulation.
 * **Canvas - Text UI** - This GameObject is not part of the Player scene but is part of the Player User Interface.
