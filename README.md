@@ -1,11 +1,12 @@
-<p align="center">
-  <img src="Gifs/demo.gif">
-</p>
-
 **The University of Melbourne**
 # COMP30019 – Graphics and Interaction
 
 ## Workshop 1
+
+<p align="center">
+  <img src="Gifs/demo.gif">
+</p>
+
 
 # Introduction:
 
