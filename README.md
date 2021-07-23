@@ -81,7 +81,7 @@ With the help of your tutor and the `Main` Scene make sure that all `Game Object
 
 Good Luck!
 
- **Don't forget to save your scene, then use GitHub Desktop to commit and push your changes to the repository.** 
+ **Don't forget to save your scene.** 
 
 Do not forget to ask:
 
